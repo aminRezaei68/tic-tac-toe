@@ -1,0 +1,127 @@
+
+.body{
+ margin: 0;
+ padding: 0;
+}
+
+.wraper {
+    background-color: #b7edec;
+    border: 20px solid #b3e5d1;
+    height: 310px;
+    width: 30%;
+    margin-left: 470px;
+    margin-top: 100px;
+}
+
+.row {
+    background-color: #cccccc;
+    width: 100%;
+    height: 100px;
+}
+
+.row-2 {
+    border-bottom: 5px solid #cccccc;
+    border-top: 5px solid #cccccc;
+}
+
+.row div:nth-child(2) {
+    border-right: 5px solid #cccccc;
+    border-left: 5px solid #cccccc;
+}
+
+.row div:last-child {
+    margin-right: 0;
+}
+.second-row div {
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+ }  
+
+ .first-row div {
+    border-bottom: 5px solid white;
+} 
+
+img {
+    width: 100px;
+    height: 80px;
+}
+
+.player1 img {
+    display: block;
+}
+
+.player2 img {
+    display: block;
+}
+
+.cell {
+    background-color: white;
+    width: 128px;
+    height: 100px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.winer div {
+    background-color: blueviolet;
+}
+
+.winerColumn1 .column-1 {
+    background-color: blueviolet;
+
+}
+
+.winerColumn2 .column-2 {
+    background-color: blueviolet;
+}
+
+.winerColumn3 .column-3 {
+    background-color: blueviolet;
+}
+
+.winerColumn1 .column-1{
+    background-color: blueviolet;
+ 
+}
+
+.winerColumn2 .row div:nth-child(2) {
+    background-color: blueviolet;
+ 
+}
+
+.winerColumn3 .row div:nth-child(3) {
+    background-color: blueviolet;
+ 
+}
+*/
+.winerDiameterLeft .leftDiameter {
+    background-color: blueviolet;
+}
+
+.winerDiameterRight .rightDiameter {
+    background-color: blueviolet;
+
+}
+
+.third-row {
+    border-bottom: none !important;
+}
+
+.row:first-child {
+    border-right: none;
+} 
+
+.clear {
+    clear:both;
+}
+
+.message {
+    width: 100px;
+    height: 50px;
+    background-color: lightgreen;
+    padding: 50%;
+    margin-left: 50%;
+}
