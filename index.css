@@ -117,11 +117,3 @@ img {
 .clear {
     clear:both;
 }
-
-.message {
-    width: 100px;
-    height: 50px;
-    background-color: lightgreen;
-    padding: 50%;
-    margin-left: 50%;
-}
